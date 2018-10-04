@@ -7,7 +7,8 @@ def my_select(collection)
   
   i += 1 
 end
-forarr
+found = arr.detect {|e| e ==true}
+return found
 else
   puts "No block"
 end
