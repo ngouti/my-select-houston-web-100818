@@ -7,7 +7,7 @@ def my_select(collection)
   
   i += 1 
 end
-return collection
+return collection[arr]
 else
   puts "No block"
 end
