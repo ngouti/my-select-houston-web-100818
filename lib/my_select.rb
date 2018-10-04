@@ -11,3 +11,5 @@ else
   puts "No block"
 end
 end
+
+retr = Proc.new { |name| "Hello, #{name}!" }
