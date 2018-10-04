@@ -4,7 +4,7 @@ def my_select(collection)
   arr =[]
   while i < collection.length
   arr << yield(collection[i])
-  arr.include?(true).to_f
+  arr.include?(true).to_i
   i += 1 
 end
 return arr
