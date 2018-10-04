@@ -7,7 +7,7 @@ def my_select(collection)
   
   i += 1 
 end
-return collection.include?(true)
+return collection
 else
   puts "No block"
 end
