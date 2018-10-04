@@ -4,10 +4,9 @@ def my_select(collection)
   arr =[]
   while i < collection.length
   arr << yield(collection[i])
-  arr.delete_if(false)
   i += 1 
 end
-return arr
+return arr.true
 else
   puts "No block"
 end
