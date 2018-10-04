@@ -12,4 +12,3 @@ else
 end
 end
 
-retr = Proc.new { |name| "Hello, #{name}!" }
