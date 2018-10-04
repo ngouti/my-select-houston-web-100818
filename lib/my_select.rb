@@ -7,7 +7,7 @@ def my_select(collection)
   
   i += 1 
 end
-arr
+forarr
 else
   puts "No block"
 end
