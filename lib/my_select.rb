@@ -1,9 +1,14 @@
 def my_select(collection)
-  result =[]
-    self.each do |element|
-      result << element if block.call(element) == true
-    end
-    result
+  if block_given?
+  i = 0
+  arr =[]
+  while i < collection.length
+  arr << yield(collection[i])
+  i += 1 
 end
-
+return arr
+else
+  puts "No block"
+end
+end
 
